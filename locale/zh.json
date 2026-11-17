@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "群聊",
+    "description": "创建群聊，把 DeepSeek Harness、Codex、Claude Code 的 AI 成员拉进同一个面板，点名发言并共享上下文。",
+    "detail": "docs/DETAIL.md"
+  }
+}

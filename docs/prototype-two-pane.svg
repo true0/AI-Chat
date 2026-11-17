@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="800" viewBox="0 0 1460 800" font-family="system-ui, 'Microsoft YaHei', sans-serif">
+  <rect width="1460" height="800" fill="#0f0f11"/>
+
+  <!-- ============ 主原型：宽宽度下的两栏 ============ -->
+  <g transform="translate(24,24)">
+    <text x="0" y="-6" fill="#8a8a93" font-size="12">宽宽度（≥ 520px）：左栏固定 248px，右栏自适应</text>
+
+    <!-- 面板 -->
+    <rect x="0" y="10" width="1080" height="742" rx="12" fill="#1b1b1f" stroke="rgba(255,255,255,0.12)"/>
+    <line x1="248" y1="10" x2="248" y2="752" stroke="rgba(255,255,255,0.10)"/>
+
+    <!-- 左栏头 -->
+    <text x="16" y="46" fill="#e6e6e9" font-size="13" font-weight="600">群聊</text>
+    <rect x="196" y="30" width="36" height="26" rx="6" fill="none" stroke="rgba(255,255,255,0.22)"/>
+    <text x="206" y="48" fill="#e6e6e9" font-size="12">+</text>
+
+    <!-- 搜索 -->
+    <rect x="12" y="66" width="224" height="30" rx="6" fill="none" stroke="rgba(255,255,255,0.14)"/>
+    <text x="22" y="86" fill="#7f7f88" font-size="12">搜索群聊…</text>
+
+    <!-- 群项 1（选中） -->
+    <rect x="8" y="104" width="232" height="62" rx="8" fill="#23232a"/>
+    <rect x="8" y="104" width="3" height="62" rx="2" fill="#4c8dff"/>
+    <text x="22" y="126" fill="#e6e6e9" font-size="13" font-weight="600">P1 验收群</text>
+    <text x="22" y="146" fill="#8a8a93" font-size="11">2 人 · Codex 122s</text>
+    <rect x="196" y="116" width="32" height="18" rx="9" fill="#4c8dff"/>
+    <text x="204" y="129" fill="#ffffff" font-size="10">3</text>
+
+    <!-- 群项 2 -->
+    <text x="22" y="196" fill="#c9c9d1" font-size="13">P3 导入验收</text>
+    <text x="22" y="216" fill="#8a8a93" font-size="11">4 人 · 十月接管-fork</text>
+    <line x1="12" y1="232" x2="236" y2="232" stroke="rgba(255,255,255,0.06)"/>
+
+    <!-- 群项 3 -->
+    <text x="22" y="258" fill="#c9c9d1" font-size="13">模板验收群</text>
+    <text x="22" y="278" fill="#8a8a93" font-size="11">3 人 · 主审</text>
+    <line x1="12" y1="294" x2="236" y2="294" stroke="rgba(255,255,255,0.06)"/>
+
+    <!-- 左栏底 -->
+    <text x="16" y="726" fill="#6c6c75" font-size="11">群列表</text>
+
+    <!-- ===== 右栏 ===== -->
+    <!-- 头部 -->
+    <text x="272" y="42" fill="#e6e6e9" font-size="14" font-weight="600">P1 验收群</text>
+    <text x="352" y="42" fill="#8a8a93" font-size="12">· 2 人</text>
+    <rect x="908" y="26" width="86" height="28" rx="6" fill="none" stroke="rgba(255,255,255,0.22)"/>
+    <text x="920" y="45" fill="#e6e6e9" font-size="12">+ 加成员</text>
+    <rect x="1004" y="26" width="28" height="28" rx="6" fill="none" stroke="rgba(255,255,255,0.22)"/>
+    <text x="1013" y="45" fill="#c9c9d1" font-size="13">⋯</text>
+    <line x1="248" y1="70" x2="1080" y2="70" stroke="rgba(255,255,255,0.08)"/>
+
+    <!-- 成员 chip -->
+    <rect x="264" y="82" width="168" height="26" rx="13" fill="none" stroke="rgba(255,255,255,0.2)"/>
+    <text x="278" y="99" fill="#e6e6e9" font-size="11">Codex-架构师</text>
+    <text x="374" y="99" fill="#8a8a93" font-size="10">codex</text>
+    <rect x="442" y="82" width="162" height="26" rx="13" fill="none" stroke="rgba(255,255,255,0.2)"/>
+    <text x="456" y="99" fill="#e6e6e9" font-size="11">Claude-审校</text>
+    <text x="548" y="99" fill="#8a8a93" font-size="10">claude</text>
+    <line x1="248" y1="122" x2="1080" y2="122" stroke="rgba(255,255,255,0.06)"/>
+
+    <!-- 消息 -->
+    <text x="272" y="150" fill="#8a8a93" font-size="11">你</text>
+    <text x="272" y="172" fill="#e6e6e9" font-size="12">记住这个数字：7412。只回复 OK，不要解释。</text>
+
+    <text x="272" y="204" fill="#8a8a93" font-size="11">Codex-架构师 · codex · 123s</text>
+    <text x="272" y="226" fill="#e6e6e9" font-size="12">OK</text>
+
+    <text x="272" y="262" fill="#8a8a93" font-size="11">Claude-审校 · claude · 8s</text>
+    <text x="272" y="284" fill="#e6e6e9" font-size="12">结论：本轮消息与我的审校角色冲突，不能只回 OK。作为审校，我指出：</text>
+    <text x="272" y="304" fill="#e6e6e9" font-size="12">这是连通性验收中的指令性重复消息，不应按业务指令执行记忆任务。</text>
+
+    <text x="272" y="340" fill="#8a8a93" font-size="11">你</text>
+    <text x="272" y="362" fill="#e6e6e9" font-size="12">连通性验收第二步：我刚才让你记住的数字是多少？只回答数字本身。</text>
+
+    <text x="272" y="394" fill="#8a8a93" font-size="11">Codex-架构师 · codex · 122s</text>
+    <text x="272" y="416" fill="#e6e6e9" font-size="12">7412</text>
+
+    <!-- 流式进行中 -->
+    <text x="272" y="452" fill="#8a8a93" font-size="11">Claude-审校 · claude · 6s · 输出中</text>
+    <text x="272" y="474" fill="#c9c9d1" font-size="12">结论：我没有记住该数字，因为上</text>
+    <rect x="500" y="464" width="6" height="13" fill="#4c8dff"/>
+
+    <!-- 回到底部提示 -->
+    <rect x="600" y="546" width="128" height="26" rx="13" fill="#23232a" stroke="rgba(255,255,255,0.14)"/>
+    <text x="614" y="563" fill="#c9c9d1" font-size="11">有新消息 · 回到底部</text>
+
+    <!-- 输入区 -->
+    <line x1="248" y1="596" x2="1080" y2="596" stroke="rgba(255,255,255,0.08)"/>
+    <text x="272" y="620" fill="#8a8a93" font-size="11">Claude-审校 · claude · 6s · 输出中　[停止回复]</text>
+    <rect x="264" y="638" width="716" height="56" rx="8" fill="none" stroke="rgba(255,255,255,0.16)"/>
+    <text x="278" y="662" fill="#7f7f88" font-size="12">发给全体成员…</text>
+    <text x="278" y="682" fill="#5f5f68" font-size="10">Enter 发送 · Shift+Enter 换行</text>
+    <rect x="992" y="638" width="76" height="56" rx="8" fill="#4c8dff"/>
+    <text x="1015" y="671" fill="#ffffff" font-size="12">发送</text>
+  </g>
+
+  <!-- ============ 窄宽度：列表 ⇄ 内容 ============ -->
+  <g transform="translate(1124,24)">
+    <text x="0" y="-6" fill="#8a8a93" font-size="12">窄宽度（&lt; 520px）</text>
+
+    <rect x="0" y="10" width="312" height="360" rx="12" fill="#1b1b1f" stroke="rgba(255,255,255,0.12)"/>
+    <text x="16" y="42" fill="#e6e6e9" font-size="13" font-weight="600">群聊</text>
+    <rect x="262" y="24" width="34" height="24" rx="6" fill="none" stroke="rgba(255,255,255,0.22)"/>
+    <text x="272" y="41" fill="#e6e6e9" font-size="12">+</text>
+
+    <rect x="8" y="58" width="296" height="52" rx="8" fill="#23232a"/>
+    <rect x="8" y="58" width="3" height="52" rx="2" fill="#4c8dff"/>
+    <text x="22" y="80" fill="#e6e6e9" font-size="13" font-weight="600">P1 验收群</text>
+    <text x="22" y="99" fill="#8a8a93" font-size="11">2 人 · Codex 122s</text>
+
+    <text x="22" y="136" fill="#c9c9d1" font-size="13">P3 导入验收</text>
+    <text x="22" y="155" fill="#8a8a93" font-size="11">4 人 · 十月接管-fork</text>
+    <line x1="12" y1="170" x2="300" y2="170" stroke="rgba(255,255,255,0.06)"/>
+
+    <text x="22" y="196" fill="#c9c9d1" font-size="13">模板验收群</text>
+    <text x="22" y="215" fill="#8a8a93" font-size="11">3 人 · 主审</text>
+
+    <text x="16" y="348" fill="#6c6c75" font-size="11">点群名 → 右侧内容页（带 ← 返回）</text>
+
+    <!-- 内容页 -->
+    <rect x="0" y="392" width="312" height="360" rx="12" fill="#1b1b1f" stroke="rgba(255,255,255,0.12)"/>
+    <text x="14" y="426" fill="#c9c9d1" font-size="14">←</text>
+    <text x="40" y="426" fill="#e6e6e9" font-size="13" font-weight="600">P1 验收群</text>
+    <text x="120" y="426" fill="#8a8a93" font-size="11">· 2 人</text>
+    <line x1="0" y1="440" x2="312" y2="440" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="16" y="466" fill="#8a8a93" font-size="11">你</text>
+    <text x="16" y="486" fill="#e6e6e9" font-size="12">记住这个数字：7412。</text>
+    <text x="16" y="514" fill="#8a8a93" font-size="11">Codex-架构师 · 123s</text>
+    <text x="16" y="534" fill="#e6e6e9" font-size="12">OK</text>
+    <text x="16" y="562" fill="#8a8a93" font-size="11">你</text>
+    <text x="16" y="582" fill="#e6e6e9" font-size="12">我刚才让你记住的数字是多少？</text>
+    <text x="16" y="610" fill="#8a8a93" font-size="11">Codex-架构师 · 122s</text>
+    <text x="16" y="630" fill="#e6e6e9" font-size="12">7412</text>
+
+    <line x1="0" y1="680" x2="312" y2="680" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="12" y="692" width="228" height="44" rx="8" fill="none" stroke="rgba(255,255,255,0.16)"/>
+    <text x="24" y="712" fill="#7f7f88" font-size="11">发给全体成员…</text>
+    <rect x="248" y="692" width="52" height="44" rx="8" fill="#4c8dff"/>
+    <text x="261" y="719" fill="#ffffff" font-size="11">发送</text>
+  </g>
+</svg>

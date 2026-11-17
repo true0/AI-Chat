@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Group chat",
+    "description": "Create group chats and add AI members backed by DeepSeek Harness, Codex, or Claude Code, with point-to-speak orchestration in one panel.",
+    "detail": "docs/DETAIL.md"
+  }
+}
